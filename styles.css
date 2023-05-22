@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(30, 29, 36);
+}
+
+.outlineBox {
+  border: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 4px;
+  margin: 10px auto;
+  width:500px;
+  height: 700px;
+  border-radius: 10px;
+  background-color: rgb(46, 45, 55);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width:350px;
+  row-gap: 25px;
+  column-gap: 25px;
+  margin: 60px auto;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.green {
+  background-color: rgb(31, 251, 119);
+}
+
+.red {
+  background-color: rgb(255, 74, 74);
+}
+.yellow {
+  background-color: rgb(255, 255, 104);
+}
+.blue {
+  background-color: rgb(63, 162, 255);
+}
+
+#title {
+  font-family: 'Lobster', cursive;
+  color:aliceblue;
+  font-size: 90px;
+  text-align: center;
+  margin-top: 20px;
+}
+#message {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  color:aliceblue;
+  font-size: 35px;
+  text-align: center;
+}
+#start {
+  margin: 10px auto;
+}
